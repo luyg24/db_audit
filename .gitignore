@@ -29,14 +29,6 @@ env/
 # 环境变量
 .env
 
-# 数据目录
-data/pdfs/*.pdf
-data/markdown/*.md
-data/knowledge/**/*.json
-data/knowledge/**/*.md
-
-# 日志
-logs/*.log
 
 # IDE
 .idea/
