@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(gh search:*)",
+      "Bash(python3 -m venv venv)",
+      "Bash(source venv/bin/activate)",
+      "Bash(pip install:*)",
+      "Bash(python main.py --search \"database audit\" --days 30)",
+      "Bash(python main.py --download 2604.09277)",
+      "Bash(python -c \"import arxiv; help\\(arxiv.Client\\)\")",
+      "Bash(python -c \"import arxiv; paper = next\\(arxiv.Search\\(id_list=[''2604.09277'']\\).results\\(\\)\\); print\\(dir\\(paper\\)\\)\")",
+      "Bash(marker_single --help)",
+      "Bash(python -c \":*)",
+      "Bash(python main.py --once)",
+      "Bash(find ~/Library/Application Support -name *trae* -o -name *Trae*)",
+      "Bash(for port:*)",
+      "Bash(do)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:$port/health)",
+      "Bash(echo \" - port $port\")",
+      "Bash(done)",
+      "Bash(curl -s http://localhost:51000/health)",
+      "Bash(curl -s http://localhost:17788/v1/models)",
+      "Bash(curl -s -X POST http://localhost:17788/chat -H \"Content-Type: application/json\" -d '{\"\"\"\"message\"\"\"\":\"\"\"\"test\"\"\"\"}')",
+      "Bash(head -5 echo \"---\" curl -s -X POST http://localhost:17788/api/chat -H \"Content-Type: application/json\" -d '{\"\"\"\"message\"\"\"\":\"\"\"\"test\"\"\"\"}')",
+      "WebFetch(domain:trae.ai)",
+      "Bash(ls -la data/pdfs/*.pdf)",
+      "Read(//private/tmp/**)",
+      "Bash(python3:*)",
+      "Bash(ls -la ~/.claude/skills/compile-clippings/ echo --- cat ~/.claude/skills/compile-clippings/*.md)",
+      "Bash(cat ~/.claude/skills/compile-clippings/*)",
+      "Bash(ls -la papers/*.pdf)"
+    ]
+  }
+}

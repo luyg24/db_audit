@@ -1,0 +1,11 @@
+arxiv>=2.0.0
+marker-pdf
+anthropic
+openai
+pyyaml
+schedule
+requests
+tqdm
+python-dotenv
+httpx
+pymupdf  # 备用PDF转换
