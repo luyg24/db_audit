@@ -30,7 +30,11 @@
       "Bash(python3:*)",
       "Bash(ls -la ~/.claude/skills/compile-clippings/ echo --- cat ~/.claude/skills/compile-clippings/*.md)",
       "Bash(cat ~/.claude/skills/compile-clippings/*)",
-      "Bash(ls -la papers/*.pdf)"
+      "Bash(ls -la papers/*.pdf)",
+      "Bash(ls -la /Users/didi/Documents/Program/claude/db_audit/*.json /Users/didi/Documents/Program/claude/db_audit/*.txt)",
+      "Bash(npm list:*)",
+      "Bash(npm update:*)",
+      "Bash(claude:*)"
     ]
   }
 }

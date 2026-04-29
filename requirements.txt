@@ -1,11 +1,3 @@
-arxiv>=2.0.0
-marker-pdf
-anthropic
-openai
-pyyaml
-schedule
-requests
-tqdm
-python-dotenv
-httpx
-pymupdf  # 备用PDF转换
+pandas>=1.5.0
+openpyxl>=3.0.0
+pyspark>=3.3.0
